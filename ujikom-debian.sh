@@ -22,5 +22,5 @@ echo "Buka filezilla dan koneksikan FTP Server
 tanda /. Jangan ditaruh di dalam public_html)."
 apt install zip 
 echo "anda harus menambah database dengan sql dengan perintah mysql dan create database wp;"
-
+echo "jangan lupa tambahkan ftp user di linux anda dengan adduser"
 IFS=$'\n\t'
