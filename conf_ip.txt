@@ -1,0 +1,16 @@
+;
+; BIND reverse data file for local loopback interface
+;
+$TTL	604800
+@	IN	SOA	princesmkdt.co.id. root.princesmkdt.co.id. (
+			      1		; Serial
+			 604800		; Refresh
+			  86400		; Retry
+			2419200		; Expire
+			 604800 )	; Negative Cache TTL
+;
+@	IN	NS	princesmkdt.co.id.
+151	IN	PTR	princesmkdt.co.id.
+151	IN	PTR	www.princesmkdt.co.id.
+151	IN	PTR	ftp.princesmkdt.co.id.
+151	IN	PTR	mail.princesmkdt.co.id.
